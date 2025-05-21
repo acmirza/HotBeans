@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beans: Jobs</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <style>
+        /* === Background Image for Page === */
+        body {
+            background-image: url('css/images/office\ background.jpg'); /* Replace with actual image path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            min-height: 100vh; /* Ensures body takes at least the full viewport height */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* === Navigation === */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        /* === Title Section === */
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 3em;
+            margin-top: 50px;
+            padding: 20px;
+            font-family: 'Arial', sans-serif;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* === Job Section Styling (Updated Background) === */
+        .job-section {
+            padding: 40px 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent to show background */
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            border-radius: 10px; /* Optional: improves visual appearance */
+        }
+
+        .job-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        .job-box {
+            background-color: #1e1e1e;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1200px;
+            border-radius: 8px;
+        }
+
+        .job-box h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+
+        .job-box p {
+            margin: 10px 0;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        /* === Footer Styling === */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative; /* Change from fixed to relative */
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            margin-top: 50px; /* Add space above footer if needed */
+        }
+
+        /* === Main Content Section === */
+        .main-content {
+            flex: 1; /* Ensures the content area grows to take available space */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <ul>
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="Jobs.html">Jobs</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Profile.html">Profile</a></li>
+            <li><a href="Job Application.html">Job Application</a></li>
+        </ul>
+        <img src="css/images/Hot Beans Official Logo.PNG" alt="Hot Beans Logo" class="logo">
+    </div>
+
+    <!-- Title Section -->
+    <h1>Our Jobs Available</h1>
+
+    <!-- Job Opportunities Section -->
+    <div class="job-section">
+        <div class="job-title"></div>
+
+        <div class="job-box">
+            <h3>UX/UI Designer</h3>
+            <p><span class="bold">Responsibilities:</span> Design User interfaces for our company, improve experience of users through wireframes and research.</p>
+            <p><span class="bold">Requirements:</span> High skill in using applications such as Adobe CD & Figma.</p>
+        </div>
+
+        <div class="job-box">
+            <h3>Junior Web Developer </h3>
+            <p><span class="bold">Responsibilities:</span> Help out in creating & websites/web applications, Focused on front and back-end tasks.</p>
+            <p><span class="bold">Requirements:</span> HTML, CSS, & JavaScript knowledge at a simple level, with familiarity on frameworks such as React or Bootstrap.</p>
+        </div>
+
+        <div class="job-box">
+            <h3>Web Development Intern</h3>
+            <p><span class="bold">Responsibilities:</span> Learn and help projects for websites, write basic code, and test website applications.</p>
+            <p><span class="bold">Requirements:</span> Basic understanding of web development concepts, willingness to learn, and strong problem-solving skills.</p>
+        </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <!-- Your content goes here -->
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Hot Beans. All rights reserved.</p>
+        <div style="margin-top: 10px;">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="css/images/instagram icon.webp" alt="Instagram" style="width: 30px; margin: 0 10px;">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="css/images/LinkedIn icon.png" alt="LinkedIn" style="width: 30px; margin: 0 10px;">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

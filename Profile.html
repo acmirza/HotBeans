@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beans: Profile</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <style>
+        /* === Background Image for Page === */
+        body {
+            background-image: url('css/images/office\ background.jpg'); /* Update the path if needed */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            min-height: 100vh; /* Ensures body takes at least the full viewport height */
+            display: flex;
+            flex-direction: column; /* Ensures the footer stays at the bottom */
+        }
+
+        /* === Navigation bar styles === */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        /* === Title styling === */
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 3em;
+            margin-top: 50px;
+            padding: 20px;
+            font-family: 'Arial', sans-serif;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* === Developer Section Styling === */
+        .container {
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+            flex: 1; /* Ensures content section grows and pushes footer down */
+        }
+
+        .developer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .developer-card {
+            background-color: rgba(244, 244, 244, 0.9); /* Transparency for background visibility */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .developer-card img {
+            max-width: 100%;
+            border-radius: 10px;
+            height: auto;
+        }
+
+        .employee-name {
+            margin-top: 15px;
+            color: #333;
+        }
+
+        /* === Footer Styling === */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative; /* Changed to relative */
+            width: 100%;
+            margin-top: 50px; /* Adds space between content and footer */
+        }
+
+        /* === Logo style === */
+        .logo {
+            max-height: 60px;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <ul>
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="Jobs.html">Jobs</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Profile.html">Profile</a></li>
+            <li><a href="Job Application.html">Job Application</a></li>
+        </ul>
+        <img src="css/images/Hot Beans Official Logo.PNG" alt="Hot Beans Logo" class="logo">
+    </div>
+
+    <h1>Meet our Staff!</h1>
+
+    <div class="container">
+        <div class="developer-grid">
+            <div class="developer-card">
+                <img src="css/images/Shah Ruhk Khan.jpg" alt="Shah Khan">
+                <h3 class="employee-name">Shah Khan - UX/UI Designer</h3>
+                <p style="color: black;">Shah Khan uses his intuitive thinking to create high quality UI designs that best match the purpose of the website or applications he helps design.</p>
+            </div>
+            <div class="developer-card">
+                <img src="css/images/Romeo Lavia.png" alt="Romeo Lavia">
+                <h3 class="employee-name">Romeo Lavia - Junior Developer</h3>
+                <p style="color: black;">Romeo Lavia is a great student with a vast amount of knowledge about website designs for his age. He uses this to help support the web developers he is partnered with as much as possible.</p>
+            </div>
+            <div class="developer-card">
+                <img src="css/images/smart man.jpg" alt="Shing-Fuu">
+                <h3 class="employee-name">Shing-Fuu – Web Development Intern</h3>
+                <p style="color: black;">Shing-Fuu uses his website developing prowess to help Hot Beans and their employees create and maintain their websites as best as possible.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Hot Beans. All rights reserved.</p>
+        <div style="margin-top: 10px;">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="css/images/instagram icon.webp" alt="Instagram" style="width: 30px; margin: 0 10px;">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="css/images/LinkedIn icon.png" alt="LinkedIn" style="width: 30px; margin: 0 10px;">
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>

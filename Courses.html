@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beans: Courses</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <style>
+        /* === Background Image for Page === */
+        body {
+            background-image: url('css/images/office\ background.jpg'); /* Replace with your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            min-height: 100vh; /* Ensures body takes at least the full viewport height */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* === Navigation bar styles === */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        ul.navbar li {
+            float: left;
+        }
+
+        ul.navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.navbar li a:hover {
+            background-color: #111;
+        }
+
+        /* === Title styling === */
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 3em;
+            margin-top: 50px;
+            padding: 20px;
+            font-family: 'Arial', sans-serif;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* === Resource Box Styling === */
+        .resource-box {
+            background-color: rgba(34, 34, 34, 0.8); /* Slight transparency for background image */
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: fit-content;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .resource-box h2 {
+            color: gold;
+            margin-top: 0;
+        }
+
+        .resource-box ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .resource-box li {
+            margin: 5px 0;
+        }
+
+        .resource-box a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .resource-box a:hover {
+            text-decoration: underline;
+        }
+
+        /* === Footer Styling === */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative; /* Changed from fixed to relative */
+            width: 100%;
+            margin-top: 50px; /* Adds space between content and footer */
+        }
+
+        /* === Logo style === */
+        .logo {
+            max-height: 60px;
+            margin: 10px;
+        }
+
+        /* === Main Content Section === */
+        .main-content {
+            flex: 1; /* Ensures content area grows to take available space */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="Jobs.html">Jobs</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Profile.html">Profile</a></li>
+            <li><a href="Job Application.html">Job Application</a></li>
+        </ul>
+        <img src="css/images/Hot Beans Official Logo.PNG" alt="Hot Beans Logo" class="logo">
+    </div>
+
+    <!-- Title Section -->
+    <h1>Become a Professional Web Developer!</h1>
+
+    <!-- Resource Box -->
+    <div class="resource-box">
+        <h2>Learn Website Development</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com/">W3Schools – Website Tutorials</a></li>
+            <li><a href="https://www.codecademy.com/">Codecademy – Learning with Interactivity</a></li>
+            <li><a href="https://www.freecodecamp.org/">FreeCodeCamp – Code Challenges to Help in Learning</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <!-- Additional content goes here -->
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Hot Beans. All rights reserved.</p>
+        <div style="margin-top: 10px;">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="css/images/instagram icon.webp" alt="Instagram" style="width: 30px; margin: 0 10px;">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="css/images/LinkedIn icon.png" alt="LinkedIn" style="width: 30px; margin: 0 10px;">
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>

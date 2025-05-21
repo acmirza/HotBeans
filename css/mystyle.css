@@ -1,0 +1,74 @@
+/* Container for nav and logo */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 0 0px;
+    height: 60px; /* Set a fixed height for the navbar */
+}
+
+/* Navigation list */
+.nav-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Navigation items */
+.nav-container li {
+    float: none; /* remove float */
+}
+
+/* Navigation links */
+.nav-container li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-container li a:hover {
+    background-color: #111;
+}
+
+/* Logo styling */
+.logo {
+    height: 60px; /* Adjust this value to control the logo size */
+    width: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure logo doesn't overflow */
+}
+
+.centre-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; /* Optional: adjusts image size */
+}
+
+.resource-box {
+    background-color: rgba(0, 0, 0, 0.85); /* Dark semi-transparent */
+    border-radius: 10px;
+    padding: 20px;
+    width: fit-content;
+    margin: 50px auto; /* Centers the box */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.resource-box h2 {
+    color: #FFD700; /* Yellow/gold title */
+    margin-bottom: 15px;
+}
+
+.resource-box ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.resource-box li {
+    margin-bottom: 8px;
+}
+

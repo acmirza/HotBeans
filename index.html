@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beans</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <style>
+        /* === Background Image for Page === */
+        body {
+            background-image: url('css/images/office\ background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            min-height: 100vh; /* Ensures body takes at least the full viewport height */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* === Navigation === */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #111;
+        }
+
+        /* === Title Section === */
+        h1 {
+            text-align: center;  /* Center the title */
+            color: #333;         /* Dark color for the title text */
+            font-size: 3em;      /* Larger font size for emphasis */
+            margin-top: 50px;    /* Space above the title */
+            padding: 20px;       /* Padding for spacing around the title */
+            font-family: 'Arial', sans-serif; /* Clean font for the title */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+        }
+
+        /* === Content Section === */
+        .main-content {
+            flex: 1; /* Ensures the content area grows to take available space */
+        }
+
+        /* === Footer Styling === */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative; /* Change from fixed to relative */
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            margin-top: 50px; /* Add space above footer if needed */
+        }
+
+        /* === Paragraph and Image Styling === */
+        p {
+            text-align: center; /* Centers text horizontally */
+            margin: 20px auto;  /* Add some margin and center the paragraph horizontally */
+            width: 80%;         /* Optional: limits the width of the paragraph to avoid it stretching across the entire screen */
+        }
+
+        .centre-image {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <ul>
+            <li><a href="index.html">Home</a></li>  
+            <li><a href="Jobs.html">Jobs</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Profile.html">Profile</a></li>
+            <li><a href="Job Application.html">Job Application</a></li>
+        </ul>
+    
+        <img src="css/images/Hot Beans Official Logo.PNG" alt="Hot Beans Logo" class="logo">
+    </div>
+
+    <!-- Title Section -->
+    <h1>Welcome to Hot Beans</h1>
+
+    <p>Welcome to the Official page for Hot Beans! 
+    Here on this page, you can learn about the different job opportunities that we offer, and you can apply for a job to potentially join our ranks as an employee of Hot Beans!
+    At Hot Beans, we make sure that we offer the highest service to our clients, and therefore we must have the best employees within our infrastructure to produce the most satisfaction we can.</p>
+
+    <img src="css/images/laptop image.jpg" alt="" class="centre-image">
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <!-- Your content goes here -->
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Hot Beans. All rights reserved.</p>
+        <div style="margin-top: 10px;">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="css/images/instagram icon.webp" alt="Instagram" style="width: 30px; margin: 0 10px;">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="css/images/LinkedIn icon.png" alt="LinkedIn" style="width: 30px; margin: 0 10px;">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
